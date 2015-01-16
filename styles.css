@@ -159,6 +159,26 @@ a:visited {
 	font-size: 16pt;
 }
 
+.people {
+	margin-left: auto;
+	margin-right: auto;
+	table-layout: fixed;
+	width: 700px;
+	padding-bottom: 12px;
+}
+
+.profile-link {
+	text-align: right;
+}
+
+.dash {
+	width: 30px;
+}
+
+.person-role {
+	text-align: left;
+}
+
 #footer {
 	padding-top: 20px;
 	padding-bottom: 10px;

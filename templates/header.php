@@ -72,7 +72,7 @@
 					konamiDiv.id = "konami";
 					document.body.appendChild(konamiDiv);
 					$('#konami').prepend('<img src="http://i0.kym-cdn.com/entries/icons/original/000/003/269/lolol.jpg">');
-					$('#konami').prepend('<audio id="scare" hidden autoplay><source src="/res/scream.mp3" type="audio/mpeg"><embed src="/res/scream.mp3" hidden=true autostart=true loop=false></audio>'); // add audio tag along with embed tag for old people
+					$('#konami').prepend('<audio id="scare" hidden autoplay><source src="http://www.amigocraft.net/resources/scream.mp3" type="audio/mpeg"><embed src="http://www.amigocraft.net/resources/scream.mp3" hidden=true autostart=true loop=false></audio>'); // add audio tag along with embed tag for old people
 					setTimeout(function() { $('#konami').remove(); }, 1183);
 				}
 				konami.load();

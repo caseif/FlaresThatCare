@@ -12,9 +12,9 @@
 		</div>
 	</body>
 	<script type="text/javascript">
-	// some festive snow
+	// some terrifying flames
 	function letItBurn(){
-		snowFall.snow($("#navbar"), {flakeCount: 250, minSize: 1, maxSize: 1});
+		snowFall.snow($("#navbar-outer"), {flakeCount: 250, minSize: 1, maxSize: 1});
 	}
 	
 	if (getCookie("sparks") != "off")
@@ -22,7 +22,7 @@
 	
 	function stopSparks(){
 		document.cookie = 'sparks=off; expires=' + new Date(2037, 0, 1, 0, 0, 0, 0).toGMTString() + '; path=/';
-		snowFall.snow($("#navbar"), "clear");
+		snowFall.snow($("#navbar-outer"), "clear");
 		var flakes = document.getElementsByClassName("spark-elements");
 		if (flakes.length > 0)
 			while (flakes[0])

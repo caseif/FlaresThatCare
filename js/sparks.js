@@ -1,4 +1,4 @@
-/*  Snowfall pure js
+/*  Based on Snowfall pure js by Paul Irish
         ====================================================================
         LICENSE
         ====================================================================
@@ -14,40 +14,7 @@
            See the License for the specific language governing permissions and
            limitations under the License.
         ====================================================================
-        
-        1.0
-        Wanted to rewrite my snow plugin to use pure JS so you werent necessarily tied to using a framework.
-        Does not include a selector engine or anything, just pass elements to it using standard JS selectors.
-        
-        Does not clear snow currently. Collection portion removed just for ease of testing will add back in next version
-        
-        Theres a few ways to call the snow you could do it the following way by directly passing the selector,
-        
-                snowFall.snow(document.getElementsByTagName("body"), {options});
-        
-        or you could save the selector results to a variable, and then call it
-                
-                var elements = document.getElementsByClassName('yourclass');
-                snowFall.snow(elements, {options});
-                
-        Options are all the same as the plugin except clear, and collection
-        
-        values for snow options are
-        
-        flakeCount,
-        birthColor,
-		deathColor,
-        flakeIndex,
-        minSize,
-        maxSize,
-        minSpeed,
-        maxSpeed,
-        round,                 true or false, makes the snowflakes rounded if the browser supports it.
-        shadow                true or false, gives the snowflakes a shadow if the browser supports it.
-                
 */
-
-// Paul Irish requestAnimationFrame polyfill
 (function() {
     var lastTime = 0;
     var vendors = ['webkit', 'moz'];

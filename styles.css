@@ -36,17 +36,21 @@ a:visited {
 	padding-top: 70px;
 }
 
-#navbar {
+#navbar-outer {
 	background-color: #222;
 	height: 50px;
 	width: 100%;
 	position: absolute;
 	top: 8px;
-	/*position: fixed;*/
 	left: 0;
 	margin-top: -8px;
+}
+
+#navbar {
+	z-index: 999999;
 	color: white;
-	z-index: 9999;
+	position: absolute;
+	width: 100%;
 }
 
 #main-title {
@@ -78,26 +82,34 @@ a:visited {
 #nav-buttons {
 	width: 33.33333%;
 	float: right;
-	padding-top: 14px;
 	text-align: right;
+	padding-top: 14px;
+	margin-top: -10px;
 }
 
 #nav-buttons > a {
 	color: white !important;
 }
 
-#main-logo {
+#nav-links {
+	position: absolute;
+	right: 190px;
+	top: 14px;
+}
+
+#nav-icons {
+	margin-top: 2px;
+}
+
+/*#main-logo {
 	width: 32%;
 	float: left;
 	text-align: right;
-}
+}*/
 
 .nav-button {
 	height: 100%;
-	padding-top: 10px;
-	padding-bottom: 16px;
 	padding-left: 14px;
-	padding-right: 14px;
 	-o-transition: 0.25s;
 	-ms-transition: 0.25s;
 	-moz-transition: 0.25s;
@@ -106,7 +118,18 @@ a:visited {
 	color: white !important;
 }
 
-.nav-button:hover {
+#nav-links > .nav-button {
+	padding-top: 20px;
+	padding-bottom: 16px;
+	padding-right: 14px;
+}
+
+#nav-icons > .nav-button {
+	padding-top: 28px;
+	padding-bottom: 4px;
+	padding-right: 12px;
+}
+.nav-button:hover, .nav-icon:hover {
 	background-color: #000;
 	-o-transition: 0.25s;
 	-ms-transition: 0.25s;

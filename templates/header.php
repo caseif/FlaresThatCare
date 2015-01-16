@@ -36,6 +36,8 @@
 			if (remaining < 0)
 				remaining = 0;
 			function tickTimer() {
+				if (remaining % 60 == 0)
+					remaining = goal - Math.floor(Date.now() / 1000); // resynchronize
 				var days =    Math.floor(remaining / 86400);
 				days = days < 10 ? "0" + days : days;
 				var hours =   Math.floor(remaining % 86400 / 3600);
@@ -91,20 +93,33 @@
 	</head>
 	<body>
 		<div id="container">
-			<div id="navbar">
-				<div id="main-title">
-					<a href="/">Flares That Care</a>
+			<div id="navbar-outer"> <!-- I am a bad person -->
+				<div id="navbar">
+					<div id="main-title">
+						<a href="/">Flares That Care</a>
+					</div>
+					<div id="countdown">??:??:??:??</div>
+					<div id="nav-buttons">
+						<div id="nav-links">
+							<a class="nav-button" href="/people.php">People</a>
+							<a class="nav-button" href="http://goo.gl/DdOmFz">Schedule</a>
+						</div>
+						<div id="nav-icons">
+							<a class="nav-button" href="http://twitch.tv/flaresthatcare">
+								<img src="https://i.imgur.com/prJvIXW.png" alt="Twitch Stream" height=36>
+							</a>
+							<a class="nav-button" href="http://steamcommunity.com/groups/flaresthatcare">
+								<img src="https://i.imgur.com/5E97Zfq.png" alt="Steam Group" height=36>
+							</a>
+							<a class="nav-button" href="http://www.childsplaycharity.org/">
+								<img src="https://i.imgur.com/PHgFFdb.png" alt="Child's Play Charity" height=36>
+							</a>
+						</div>
+					</div>
+					<!--<div id="main-logo">
+						<img src="/img/flare.png" alt="Logo" height=50>
+					</div>-->
 				</div>
-				<div id="countdown">%COUNTDOWN%</div>
-				<div id="nav-buttons">
-					<a class="nav-button" href="/people.php">People</a>
-					<a class="nav-button" href="http://www.twitch.tv/flaresthatcare">Twitch Stream</a>
-					<a class="nav-button" href="http://steamcommunity.com/groups/flaresthatcare">Steam Group</a>
-					<a class="nav-button" href="http://www.childsplaycharity.org/">Child's Play</a>
-				</div>
-				<!--<div id="main-logo">
-					<img src="/img/flare.png" alt="Logo" height=50>
-				</div>-->
 			</div>
 			<div id="sparkToggle">
 				<?php

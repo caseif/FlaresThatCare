@@ -1,0 +1,8 @@
+Allow from all
+RewriteEngine on
+RedirectMatch 404 /\\.git(/|$)
+RedirectMatch 404 /LICENSE(/|$)
+#RewriteCond %{REMOTE_ADDR} !^96\.245\.184\.71
+#RewriteCond %{REQUEST_URI} !/maintenance.html$ [NC]
+#RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif) [NC]
+#RewriteRule .* /maintenance.html [R=302,L]

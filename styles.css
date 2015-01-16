@@ -1,0 +1,160 @@
+@font-face {
+	font-family: 'TF2';
+	src: url('/fonts/tf2/tf2.eot');
+	src: url('/fonts/tf2/tf2.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/tf2/tf2.woff2') format('woff2'),
+		 url('/fonts/tf2/tf2.woff') format('woff'),
+		 url('/fonts/tf2/tf2.ttf') format('truetype'),
+		 url('/fonts/tf2.svg#tf2regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+	background-color: #FDFDFF;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: #E90;
+}
+
+a:visited {
+	color: #B60;
+}
+
+#content {
+	text-align: center;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 70px;
+}
+
+#navbar {
+	background-color: #222;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	top: 8px;
+	/*position: fixed;*/
+	left: 0;
+	margin-top: -8px;
+	color: white;
+	z-index: 9999;
+}
+
+#main-title {
+	width: 33.33333%;
+	float: left;
+	text-align: left;
+	font-size: 26pt;
+	text-indent: 24px;
+	/*padding-top: 2px;*/
+	margin-top: -4px;
+	font-family: "TF2", "Montserrat", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+}
+
+#main-title > a {
+	color: white;
+}
+
+#countdown {
+	width: 33.33333%;
+	float: left;
+	text-align: center;
+	/*padding-top: 8px;*/
+	padding-top: 4px;
+	font-size: 22pt;
+	/*font-family: "Courier New", monospace;*/
+	color: #FA0;
+}
+
+#nav-buttons {
+	width: 33.33333%;
+	float: right;
+	padding-top: 14px;
+	text-align: right;
+}
+
+#nav-buttons > a {
+	color: white !important;
+}
+
+#main-logo {
+	width: 32%;
+	float: left;
+	text-align: right;
+}
+
+.nav-button {
+	height: 100%;
+	padding-top: 10px;
+	padding-bottom: 16px;
+	padding-left: 14px;
+	padding-right: 14px;
+	-o-transition: 0.25s;
+	-ms-transition: 0.25s;
+	-moz-transition: 0.25s;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+	color: white !important;
+}
+
+.nav-button:hover {
+	background-color: #000;
+	-o-transition: 0.25s;
+	-ms-transition: 0.25s;
+	-moz-transition: 0.25s;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+	z-index: -1;
+}
+
+#sparkToggle {
+	display: block;
+	/*position: fixed;*/
+	position: absolute;
+	top: 0;
+	right: 10px;
+	padding-left: 5px;
+	margin-top: 50px;
+	padding-top: 3px;
+	font-size: 10pt;
+}
+
+#sparkToggle > a {
+	color: #666;
+}
+
+.heading {
+	font-size: 16pt;
+}
+
+#footer {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#konami {
+	display: none;
+	position: fixed;
+	z-index: 9999999;
+	top: 22%;
+	left: 32%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.massive {
+	margin-top: 125px;
+	font-size: 150pt;
+	color: #E90;
+	text-align: center;
+}

@@ -68,9 +68,12 @@
 				
 				var konami = new Konami();
 				konami.code = function() {
+					konamiDiv = document.createElement("div");
+					konamiDiv.id = "konami";
+					document.body.appendChild(konamiDiv);
+					$('#konami').prepend('<img src="http://i0.kym-cdn.com/entries/icons/original/000/003/269/lolol.jpg">');
 					$('#konami').prepend('<audio id="scare" hidden autoplay><source src="/res/scream.mp3" type="audio/mpeg"><embed src="/res/scream.mp3" hidden=true autostart=true loop=false></audio>'); // add audio tag along with embed tag for old people
-					$("#konami").css("display", "block");
-					setTimeout(function() { $("#konami").css("display", "none"); }, 1183);
+					setTimeout(function() { $('#konami').remove(); }, 1183);
 				}
 				konami.load();
 				
@@ -83,9 +86,6 @@
 	</head>
 	<body>
 		<div id="container">
-			<span id="konami">
-				<img src="http://i0.kym-cdn.com/entries/icons/original/000/003/269/lolol.jpg">
-			</span>
 			<div id="navbar">
 				<div id="main-title">
 					<a href="/">Flares That Care</a>

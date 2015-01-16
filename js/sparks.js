@@ -151,16 +151,19 @@ var snowFall = (function(){
                                 
                                 flakeObj.className = 'spark-elements';
                                 flakeObj.setAttribute('id','flake-' + this.id);
-                                setStyle(flakeObj, {'width' : this.size, 'height' : this.size, 'position' : (fixed ? 'fixed' : 'absolute'), 'top' : this.y, 'left' : this.x, 'fontSize' : 0, 'zIndex' : defaults.flakeIndex});
+                                setStyle(flakeObj, {'width' : this.size, 'height' : this.size, 'position' : (fixed ? 'fixed' : 'absolute'),
+								'top' : this.y, 'left' : this.x, 'fontSize' : 0, 'zIndex' : defaults.flakeIndex});
                 
                                 // This adds the style to make the snowflakes round via border radius property 
                                 if(defaults.round){
-                                        setStyle(flakeObj,{'-moz-border-radius' : ~~(defaults.maxSize) + 'px', '-webkit-border-radius' : ~~(defaults.maxSize) + 'px', 'borderRadius' : ~~(defaults.maxSize) + 'px'});
+                                        setStyle(flakeObj,{'-moz-border-radius' : ~~(defaults.maxSize) + 'px',
+										'-webkit-border-radius' : ~~(defaults.maxSize) + 'px', 'borderRadius' : ~~(defaults.maxSize) + 'px'});
                                 }
                         
                                 // This adds shadows just below the snowflake so they pop a bit on lighter colored web pages
                                 if(defaults.shadow){
-                                        setStyle(flakeObj,{'-moz-box-shadow' : '1px 1px 1px #555', '-webkit-box-shadow' : '1px 1px 1px #555', 'boxShadow' : '1px 1px 1px #555'});
+                                        setStyle(flakeObj,{'-moz-box-shadow' : '1px 1px 1px #555', '-webkit-box-shadow' : '1px 1px 1px #555',
+										'boxShadow' : '1px 1px 1px #555'});
                                 }
                                 
                                 subDiv.appendChild(flakeObj);
@@ -239,7 +242,9 @@ var snowFall = (function(){
                                 // initialize the flakes
                                 for(i = 0; i < defaults.flakeCount; i+=1){
                                         flakeId = flakes.length;
-                                        flakes.push(new flake(random(widthOffset,elWidth - widthOffset), random(0, elHeight), random((defaults.minSize * 100), (defaults.maxSize * 100)) / 100, random(defaults.minSpeed, defaults.maxSpeed), flakeId));
+                                        flakes.push(new flake(random(widthOffset,elWidth - widthOffset), random(0, elHeight),
+										random((defaults.minSize * 100), (defaults.maxSize * 100)) / 100, random(defaults.minSpeed,
+										defaults.maxSpeed), flakeId));
                                 }
                                 // start the snow
                                 animateSnow();

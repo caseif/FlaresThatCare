@@ -20,7 +20,9 @@ require('./templates/header.php');
 </p>
 <p class="heading">Event Planners</p>
 <p>
-<a href="http://steamcommunity.com/profiles/76561198056063859">Plotchy</a> — Event Participant, Event Planner, Goofy Pubber
+<!--<a href="http://steamcommunity.com/profiles/76561198056063859">Plotchy</a>-->
+<a href="http://fbcdn-sphotos-e-a.hubatka.cz/hphotos-ak-prn1/44530_491807354174208_665546187_n.jpg">Plotchy</a>
+— Event Participant, Event Planner, Goofy Pubber
 <br>
 <a href="http://steamcommunity.com/profiles/76561198162803387">Pops</a> — Event Planner
 <br>

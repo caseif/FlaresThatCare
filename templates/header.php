@@ -45,7 +45,8 @@
 				var seconds = Math.floor(remaining % 86400 % 3600 % 60);
 				seconds = seconds < 10 ? "0" + seconds : seconds;
 				//var dateStr = days + " days " + hours + " hours " + minutes + " minutes " + seconds + " seconds remaining";
-				var dateStr = remaining == 0 ? "<a href='http://www.twitch.tv/flaresthatcare'>twitch.tv/flaresthatcare</a>" : days + ":" + hours + ":" + minutes + ":" + seconds;
+				var dateStr = remaining == 0 ? "<a href='http://www.twitch.tv/flaresthatcare'>twitch.tv/flaresthatcare</a>" : days + ":" + hours +
+				":" + minutes + ":" + seconds;
 				$("#countdown").html(dateStr);
 				if (remaining > 0) {
 					remaining -= 1;
@@ -72,7 +73,11 @@
 					konamiDiv.id = "konami";
 					document.body.appendChild(konamiDiv);
 					$('#konami').prepend('<img src="http://i0.kym-cdn.com/entries/icons/original/000/003/269/lolol.jpg">');
-					$('#konami').prepend('<audio id="scare" hidden autoplay><source src="http://www.amigocraft.net/resources/scream.mp3" type="audio/mpeg"><embed src="http://www.amigocraft.net/resources/scream.mp3" hidden=true autostart=true loop=false></audio>'); // add audio tag along with embed tag for old people
+					$('#konami').prepend(
+					'<audio id="scare" hidden autoplay>' + // add audio tag along with embed tag for old people
+						'<source src="http://www.amigocraft.net/resources/scream.mp3" type="audio/mpeg">' +
+						'<embed src="http://www.amigocraft.net/resources/scream.mp3" hidden=true autostart=true loop=false>' +
+					'</audio>');
 					setTimeout(function() { $('#konami').remove(); }, 1183);
 				}
 				konami.load();

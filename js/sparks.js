@@ -79,8 +79,8 @@ var snowFall = (function(){
                 // local methods
                 var        defaults = {
                         flakeCount : 35,
-						birthColor : '#FF4400',
-						deathColor : '#FFDD00',
+						birthColor : '#FFDD00',
+						deathColor : '#FF4400',
                         flakeIndex: 99999,
                         minSize : 1,
                         maxSize : 5,

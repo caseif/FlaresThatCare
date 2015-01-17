@@ -100,7 +100,9 @@ a:visited {
 }
 
 #nav-icons {
-	margin-top: 2px;
+	position: absolute;
+	right: 0;
+	top: 6px;
 }
 
 /*#main-logo {
@@ -121,19 +123,19 @@ a:visited {
 }
 
 #nav-links > .nav-button {
-	padding-top: 20px;
+	padding-top: 14px;
 	padding-bottom: 16px;
 	padding-right: 12px;
 }
 
 #nav-icons > .nav-button {
-	padding-top: 28px;
+	padding-top: 26px;
 	padding-bottom: 4px;
 	padding-right: 10px;
 }
 .nav-button:hover, .nav-icon:hover {
 	/*background-color: #000;*/
-	background: url('/img/navbar_btn_bg.png') left repeat-x;
+	background: url('/img/navbar_btn_bg.png') top left repeat-x;
 	-o-transition: 0.25s;
 	-ms-transition: 0.25s;
 	-moz-transition: 0.25s;

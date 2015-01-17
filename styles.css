@@ -17,6 +17,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	color: black;
+	background: url('/img/bg_gradient.png') center top repeat-y;
 }
 
 a {

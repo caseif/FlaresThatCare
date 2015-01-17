@@ -19,7 +19,6 @@ $roles = array(
 		'Jerry'
 	),
 	'Public Relations Lead' => array(
-		'Goobledegak',
 		'Plotchy'
 	),
 	'Management' => array(
@@ -43,6 +42,7 @@ $roles = array(
 		'Breakfast',
 		'Chris',
 		'Getawhale',
+		'Goobledegak',
 		'Plotchy',
 		'Tr1ps'
 	),

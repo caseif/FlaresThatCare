@@ -118,14 +118,21 @@
 							<a class="nav-button" href="http://goo.gl/DdOmFz" target="_blank">Schedule</a>
 						</div>
 						<div id="nav-icons">
+							<!-- Note: the "right" element in the CSS for #nav-links needs to be updated when buttons are added or removed -->
+							<a class="nav-button" href="http://open.spotify.com/user/flaresthatcare/playlist/1H6S1BFvJheCiNytbTcs6j" target="_blank">
+								<img src="/img/icons/spotify.png" alt="Spotify" height=36>
+							</a>
+							<a class="nav-button" href="http://twitter.com/flaresthatcare" target="_blank">
+								<img src="/img/icons/twitter.png" alt="Twitter" height=36>
+							</a>
 							<a class="nav-button" href="http://twitch.tv/flaresthatcare" target="_blank">
-								<img src="https://i.imgur.com/prJvIXW.png" alt="Twitch Stream" height=36>
+								<img src="/img/icons/twitch.png" alt="Twitch Stream" height=36>
 							</a>
 							<a class="nav-button" href="http://steamcommunity.com/groups/flaresthatcare" target="_blank">
-								<img src="https://i.imgur.com/5E97Zfq.png" alt="Steam Group" height=36>
+								<img src="/img/icons/steam.png" alt="Steam Group" height=36>
 							</a>
 							<a class="nav-button" href="http://www.childsplaycharity.org/" target="_blank">
-								<img src="https://i.imgur.com/PHgFFdb.png" alt="Child's Play Charity" height=36>
+								<img src="/img/icons/childsplay.png" alt="Child's Play Charity" height=36>
 							</a>
 						</div>
 					</div>

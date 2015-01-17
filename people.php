@@ -146,7 +146,7 @@ foreach ($roles as $role => $people) {
 			$url = $profiles[$person];
 			echo '<td class="person">';
 			if (isset($url))
-				echo '<a href="'.$url.'">';
+				echo '<a href="'.$url.'" target="_blank">';
 			echo $person;
 			if (isset($url))
 				echo '</a>';

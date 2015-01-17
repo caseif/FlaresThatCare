@@ -102,16 +102,16 @@
 					<div id="nav-buttons">
 						<div id="nav-links">
 							<a class="nav-button" href="/people.php">People</a>
-							<a class="nav-button" href="http://goo.gl/DdOmFz">Schedule</a>
+							<a class="nav-button" href="http://goo.gl/DdOmFz" target="_blank">Schedule</a>
 						</div>
 						<div id="nav-icons">
-							<a class="nav-button" href="http://twitch.tv/flaresthatcare">
+							<a class="nav-button" href="http://twitch.tv/flaresthatcare" target="_blank">
 								<img src="https://i.imgur.com/prJvIXW.png" alt="Twitch Stream" height=36>
 							</a>
-							<a class="nav-button" href="http://steamcommunity.com/groups/flaresthatcare">
+							<a class="nav-button" href="http://steamcommunity.com/groups/flaresthatcare" target="_blank">
 								<img src="https://i.imgur.com/5E97Zfq.png" alt="Steam Group" height=36>
 							</a>
-							<a class="nav-button" href="http://www.childsplaycharity.org/">
+							<a class="nav-button" href="http://www.childsplaycharity.org/" target="_blank">
 								<img src="https://i.imgur.com/PHgFFdb.png" alt="Child's Play Charity" height=36>
 							</a>
 						</div>

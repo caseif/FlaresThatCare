@@ -1,8 +1,20 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Flares That Care</title>
+		<title>Flares that Care</title>
 		<meta charset="UTF-8" />
+		<!-- begin Open Graph tags -->
+		<meta property="og:title" content="Flares that Care" /> <!-- TODO: possibly use specific page titles -->
+		<meta property="og:url" content="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>" />
+		<meta property="og:site_name" content="Flares that Care" />
+		<meta property="og:description" content="
+			Flares that Care is a quarterly charity livestream event supporting Child's Play Charity.
+			Our second event is set to take place from Friday, March 13th at 12 PM PST until Sunday, March 15th at 12 AM PST.
+		" />
+		<meta property="og:image" content="http://<?php echo $_SERVER['HTTP_HOST']; ?>/img/flare.png" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="en_US" />
+		<!-- end Open Graph tags -->
 		<link rel="stylesheet" type="text/css" href="/styles.css">
 		<link rel="favicon" type="image/icon" href="/favicon.ico">
 		<link rel="stylesheet"	type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro|Montserrat">

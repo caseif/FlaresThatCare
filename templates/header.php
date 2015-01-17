@@ -62,33 +62,46 @@
 					if (margin > 0) {
 						$('#content').css('margin-bottom', margin - 16);
 					}
-				}, 50)
+				}, 50);
 				tickTimer();
 			}
 
-			$(document).ready(setTimeout(function () {
+			$(document).ready(function() {
+				if (navigator.userAgent.indexOf('Firefox') > -1) { // firefox renders the navbar buttons weirdly so we need to adjust them
+					$('.nav-button').each(function() {
+						$(this).css('padding-bottom', parseInt($(this).css('padding-bottom').replace('px', '')) - 2);
+					});
+					console.log('Adjusted for Firefox quirks');
+				}
+				else if(navigator.userAgent.indexOf("Trident") > -1) {
+					// don't ask why this is necessary for IE to render the margin properly; I'm clueless
+					$('#main-title').css('margin-top', '-5px');
+					console.log('Adjusted for Internet Explorer quirks');
+				}
+				setTimeout(function () {
 				$('#footer').width($('#container').width());
 				
-				var konami = new Konami();
-				konami.code = function() {
-					konamiDiv = document.createElement("div");
-					konamiDiv.id = "konami";
-					document.body.appendChild(konamiDiv);
-					$('#konami').prepend('<img src="http://i0.kym-cdn.com/entries/icons/original/000/003/269/lolol.jpg">');
-					$('#konami').prepend(
-					'<audio id="scare" hidden autoplay>' + // add audio tag along with embed tag for old people
-						'<source src="http://www.amigocraft.net/resources/scream.mp3" type="audio/mpeg">' +
-						'<embed src="http://www.amigocraft.net/resources/scream.mp3" hidden=true autostart=true loop=false>' +
-					'</audio>');
-					setTimeout(function() { $('#konami').remove(); }, 1183);
-				}
-				konami.load();
-				
-				var margin = $(window).height() - $('#container').height();
-				if (margin > 0) {
-					$('#main-content').css('margin-bottom', margin + 16);
-				}
-			}, 50)); // I've spent 30 minutes trying to fix the CSS, so I'm giving up and just sticking in a delay
+					var konami = new Konami();
+					konami.code = function() {
+						konamiDiv = document.createElement("div");
+						konamiDiv.id = "konami";
+						document.body.appendChild(konamiDiv);
+						$('#konami').prepend('<img src="http://i0.kym-cdn.com/entries/icons/original/000/003/269/lolol.jpg">');
+						$('#konami').prepend(
+						'<audio id="scare" hidden autoplay>' + // add audio tag along with embed tag for old people
+								'<source src="http://www.amigocraft.net/resources/scream.mp3" type="audio/mpeg">' +
+								'<embed src="http://www.amigocraft.net/resources/scream.mp3" hidden=true autostart=true loop=false>' +
+								'</audio>');
+						setTimeout(function() { $('#konami').remove(); }, 1183);
+					}
+					konami.load();
+					
+					var margin = $(window).height() - $('#container').height();
+					if (margin > 0) {
+						$('#main-content').css('margin-bottom', margin + 16);
+					}
+				}, 50)
+			}); // I've spent 30 minutes trying to fix the CSS, so I'm giving up and just sticking in a delay
 		</script>
 	</head>
 	<body>

@@ -38,7 +38,8 @@ a:visited {
 }
 
 #navbar-outer {
-	background-color: #222;
+	/*background-color: #222;*/
+	background: url('/img/navbar_bg.png') left repeat-x;
 	height: 50px;
 	width: 100%;
 	position: absolute;
@@ -131,7 +132,8 @@ a:visited {
 	padding-right: 10px;
 }
 .nav-button:hover, .nav-icon:hover {
-	background-color: #000;
+	/*background-color: #000;*/
+	background: url('/img/navbar_btn_bg.png') left repeat-x;
 	-o-transition: 0.25s;
 	-ms-transition: 0.25s;
 	-moz-transition: 0.25s;

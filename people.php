@@ -1,547 +1,160 @@
 <?php
 require('./templates/header.php');
-?>
-<div style="text-align:center;position:relative;top:-16px">
-	<span class="heading">Founders</span>
-	<table class="people">
-		<tbody>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198158123097">B_RED</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Co-Founder, Host, Management
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198155316177">Snoven</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Co-Founder, Artwork, Management, Scheduling
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<span class="heading">Server Hosters/Developers</span>
-	<table class="people">
-		<tbody>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198076702935">Breakfast</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant, Server Hoster
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198067880160">caseif</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Website Developer, Code Monkey
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198044197136">Chris</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Server Hoster
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198056034720">Dman</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Server Hoster
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<span class="heading">Event Planners</span>
-	<table class="people">
-		<tbody>
-	<!--		<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198056063859">Plotchy</a>
-				</td>-->
-			<tr>
-				<td class="profile-link">
-					<a href="http://fbcdn-sphotos-e-a.hubatka.cz/hphotos-ak-prn1/44530_491807354174208_665546187_n.jpg">Plotchy</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant, Event Planner, Goofy Pubber
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198162803387">Pops</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Planner
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198082784188">Tr1ps</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Surfing, Event Planner
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<span class="heading">Audio</span>
-	<table class="people">
-		<tbody>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561197991851380">Jerry</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Audio Engineer, Event Planner
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<span class="heading">Music</span>
-	<table class="people">
-		<tbody>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561197998392954">Marty</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Music Provider, Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198019993707">Mike</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Music Provider, Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198020736248">ToadySwift</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Being ToadySwift, Event Participant
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<span class="heading">Artwork</span>
-	<table class="people">
-		<tbody>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198005541483">Blutz</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					SFM Artist, Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198005541483">FoxC</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					3D Artwork, Graphics
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198044250788">Jess</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Graphics
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<span class="heading">Participants</span>
-	<table class="people">
-		<tbody>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198047849609">Afterglow</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Jumping, Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198053067670">Aurora</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Jumping, Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198010426052">Aus</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198023665618">Auzzie</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561197982885662">DaftKid</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561197993515256">DJ</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561197999773292">Dog21</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Dodgeball, Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198002802430">Goku</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198045558830">Goobledegak</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561197969366540">Hobbes</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198053549635">Iron Kai</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198033653428">Latrine</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198079756281">Midgett</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198043660647">Mio</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198092185323">Mystiq</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198090228853">Nox/Radio</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198008464806">Oktober</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198103083216">ProfessorCake</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198049289245">Quintosh</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Surfing, Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561197996097401">Satan</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198072266128">TK</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561197995400066">TMP</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198043800052">Tokki</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Event Participant
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<span class="heading">Special Thanks</span>
-	<table class="people">
-		<tbody>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198013749611">ArraySeven</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Viewer Contributions
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561197977733292">CeeJaey</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Viewer Contributions
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561197995194256">Getawhale</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Viewer Contributions, Event Participant
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198014665457">Haydn</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Viewer Contributions
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198020918584">Tatelax</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Viewer Contributions
-				</td>
-			</tr>
-			<tr>
-				<td class="profile-link">
-					<a href="http://steamcommunity.com/profiles/76561198057999536">UncleDane</a>
-				</td>
-				<td class="dash">
-					—
-				</td>
-				<td class="person-role">
-					Viewer Contributions
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-<?php
+echo '<p>Flares that Care is made posssible with the help of these wonderful people:</p>';
+$roles = array(
+	'Founders' => array(
+		'B_RED',
+		'Snoven'
+	),
+	'Management Lead' => array(
+		'Pops'
+	),
+	'Graphics Lead' => array(
+		'Jess'
+	),
+	'Web Development Lead' => array(
+		'caseif'
+	),
+	'Audio/Video Lead' => array(
+		'Jerry'
+	),
+	'Public Relations Lead' => array(
+		'Goobledegak',
+		'Plotchy'
+	),
+	'Management' => array(
+		'CeeJaey',
+		'Pops',
+		'Snoven'
+	),
+	'Graphics' => array(
+		'Blutz',
+		'FoxC',
+		'Jess'
+	),
+	'Web Development' => array(
+		'caseif'
+	),
+	'Audio/Video' => array(
+		'Jerry',
+		'Marty'
+	),
+	'Public Relations' => array(
+		'Breakfast',
+		'Chris',
+		'Getawhale',
+		'Plotchy',
+		'Tr1ps'
+	),
+	'Moderators' => array(
+		'Aus',
+		'Auzzie',
+		'DaftKid',
+		'DJ',
+		'DrOktober',
+		'Dog21',
+		'Goku',
+		'IronKai',
+		'Latrine',
+		'Midgett',
+		'Mike',
+		'Mio',
+		'Mystiq',
+		'ProfessorCake',
+		'Radio',
+		'TK',
+		'ToadySwift',
+		'Tokki'
+	),
+	'Special Thanks To' => array(
+		'Afterglow',
+		'ArraySeven',
+		'Aurora',
+		'CDAWG',
+		'Dman',
+		'Haydn',
+		'Hobbes',
+		'Quintosh',
+		'Satan',
+		'ScottJAw',
+		'Tatelax',
+		'TMP',
+		'UncleDane'
+	)
+);
+$profiles = array(
+	'Afterglow' => 'http://steamcommunity.com/profiles/76561198053067670',
+	'ArraySeven' => 'http://steamcommunity.com/profiles/76561198013749611',
+	'Aurora' => 'http://steamcommunity.com/profiles/76561198053067670',
+	'Aus' => 'http://steamcommunity.com/profiles/76561198010426052',
+	'Auzzie' => 'http://steamcommunity.com/profiles/76561198023665618',
+	'Blutz' => 'http://steamcommunity.com/profiles/76561198005541483',
+	'Breakfast' => 'http://steamcommunity.com/profiles/76561198076702935',
+	'B_RED' => 'http://steamcommunity.com/profiles/76561198158123097',
+	'caseif' => 'http://steamcommunity.com/profiles/76561198067880160',
+	'CDAWG' => 'http://steamcommunity.com/profiles/76561198026581404',
+	'CeeJaey' => 'http://steamcommunity.com/profiles/76561197977733292',
+	'Chris' => 'http://steamcommunity.com/profiles/76561198044197136',
+	'DaftKid' => 'http://steamcommunity.com/profiles/76561197982885662',
+	'DJ' => 'http://steamcommunity.com/profiles/76561197993515256',
+	'Dman' => 'https://steamcommunity.com/profiles/76561198056034720',
+	'DrOktober' => 'http://steamcommunity.com/profiles/76561198008464806',
+	'Dog21' => 'http://steamcommunity.com/profiles/76561197999773292',
+	'FoxC' => 'http://steamcommunity.com/profiles/76561198005541483',
+	'Getawhale' => 'http://steamcommunity.com/profiles/76561197995194256',
+	'Goku' => 'http://steamcommunity.com/profiles/76561198002802430',
+	'Goobledegak' => 'http://steamcommunity.com/profiles/76561198045558830',
+	'Haydn' => 'http://steamcommunity.com/profiles/76561198014665457',
+	'Hobbes' => 'http://steamcommunity.com/profiles/76561197969366540',
+	'IronKai' => 'http://steamcommunity.com/profiles/76561198053549635',
+	'Jess' => 'http://steamcommunity.com/profiles/76561198044250788',
+	'Jerry' => 'http://steamcommunity.com/profiles/76561197991851380',
+	'Latrine' => 'http://steamcommunity.com/profiles/76561198033653428',
+	'Marty' => 'http://steamcommunity.com/profiles/76561197998392954',
+	'Midgett' => 'http://steamcommunity.com/profiles/76561198079756281',
+	'Mike' => 'http://steamcommunity.com/profiles/76561198019993707',
+	'Mio' => 'http://steamcommunity.com/profiles/76561198043660647',
+	'Mystiq' => 'http://steamcommunity.com/profiles/76561198092185323',
+	'Plotchy' => 'http://steamcommunity.com/profiles/76561198056063859',
+	'Pops' => 'http://steamcommunity.com/profiles/76561198162803387',
+	'ProfessorCake' => 'http://steamcommunity.com/profiles/76561198103083216',
+	'Quintosh' => 'http://steamcommunity.com/profiles/76561198049289245',
+	'Radio' => 'http://steamcommunity.com/profiles/76561198090228853',
+	'Satan' => 'http://steamcommunity.com/profiles/76561197996097401',
+	'ScottJAw' => 'http://steamcommunity.com/profiles/76561198031381554',
+	'Snoven' => 'http://steamcommunity.com/profiles/76561198155316177',
+	'Tatelax' => 'http://steamcommunity.com/profiles/76561198020918584',
+	'TK' => 'http://steamcommunity.com/profiles/76561198072266128',
+	'TMP' => 'http://steamcommunity.com/profiles/76561197995400066',
+	'ToadySwift' => 'http://steamcommunity.com/profiles/76561198020736248',
+	'Tokki' => 'http://steamcommunity.com/profiles/76561198043800052',
+	'Tr1ps' => 'http://steamcommunity.com/profiles/76561198082784188',
+	'UncleDane' => 'http://steamcommunity.com/profiles/76561198057999536'
+);
+
+$cols = 4;
+foreach ($roles as $role => $people) {
+	$count = sizeof($people);
+	if ($role == 'Special Thanks To')
+		echo '<hr>';
+	echo '<span class="heading">'.$role.'</span>';
+	echo '<table class="people">';
+	for ($i = 0; $i < $count; $i += $cols) {
+		echo '<tr>';
+		for ($j = $i; $j < $i + $cols && $j < $count; $j++) {
+			$person = $people[$j];
+			$url = $profiles[$person];
+			echo '<td class="person">';
+			if (isset($url))
+				echo '<a href="'.$url.'">';
+			echo $person;
+			if (isset($url))
+				echo '</a>';
+			echo '</td>';
+		}
+		echo '</tr>';
+	}
+	echo '</table>';
+}
 require('./templates/footer.php');
 ?>

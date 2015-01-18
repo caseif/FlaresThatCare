@@ -1,10 +1,14 @@
 <!DOCTYPE HTML>
+<?php
+if (!isset($pageTitle))
+	$pageTitle = "Flares that Care";
+?>
 <html>
 	<head>
-		<title>Flares that Care</title>
+		<title><?php echo $pageTitle; ?></title>
 		<meta charset="UTF-8" />
 		<!-- begin Open Graph tags -->
-		<meta property="og:title" content="Flares that Care" /> <!-- TODO: possibly use specific page titles -->
+		<meta property="og:title" content="<?php echo $pageTitle; ?>" />
 		<meta property="og:url" content="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>" />
 		<meta property="og:site_name" content="Flares that Care" />
 		<meta property="og:description" content="
@@ -72,7 +76,7 @@
 					$('#footer').width($('#container').width());
 					var margin = $(window).height() - $('#container').height();
 					if (margin > 0) {
-						$('#content').css('margin-bottom', margin - 16);
+						$('#content').css('margin-bottom', margin);
 					}
 				}, 50);
 				tickTimer();
@@ -107,11 +111,6 @@
 						setTimeout(function() { $('#konami').remove(); }, 1183);
 					}
 					konami.load();
-					
-					var margin = $(window).height() - $('#container').height();
-					if (margin > 0) {
-						$('#main-content').css('margin-bottom', margin + 16);
-					}
 				}, 50)
 			}); // I've spent 30 minutes trying to fix the CSS, so I'm giving up and just sticking in a delay
 		</script>

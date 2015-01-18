@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "404 Not Found";
 require('../templates/header.php');
 ?>
 <p>We've searched far and wide, but there is simply no file which resides at this particular electronic address. Perhaps a file once lived here,

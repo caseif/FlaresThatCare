@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "500 Internal Server Error";
 require('../templates/header.php');
 ?>
 <p>A 500 response code means something on our server blew up. We're most likely already running around with our hair on fire, but just in case, please

@@ -5,8 +5,10 @@
 				<hr>
 				<br>
 				&#169; Copyright 2015 Flares That Care
-				<span style="padding-right:7%;"></span> <!-- spacer -->
+				<span style="padding-right:50px;"></span> <!-- spacer -->
 				<a href="https://github.com/caseif/FlaresThatCare" target="_blank">Source Code</a>
+				<span style="padding-right:50px;"></span> <!-- spacer -->
+				<a href="/contact.php" target="_blank">Contact Us</a>
 			</div>
 		<!-- /container div -->
 		</div>

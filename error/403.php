@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "403 Forbidden";
 require('../templates/header.php');
 ?>
 <p>Greetings, stranger. We won't waste time asking how you found this place (<a href="mailto:admin@caseif.net">though it would be helpful if you did

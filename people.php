@@ -1,4 +1,5 @@
 <?php
+$pageTitle = 'People - Flares that Care';
 require('./templates/header.php');
 echo '<p>Flares that Care is made posssible with the help of these wonderful people:</p>';
 $roles = array(
@@ -12,7 +13,7 @@ $roles = array(
 	'Graphics Lead' => array(
 		'Jess'
 	),
-	'Web Development Lead' => array(
+	'Web Development/IT Lead' => array(
 		'caseif'
 	),
 	'Audio/Video Lead' => array(
@@ -31,7 +32,7 @@ $roles = array(
 		'FoxC',
 		'Jess'
 	),
-	'Web Development' => array(
+	'Web Development/IT' => array(
 		'caseif'
 	),
 	'Audio/Video' => array(

@@ -8,7 +8,7 @@
 				<span style="padding-right:50px;"></span> <!-- spacer -->
 				<a href="https://github.com/caseif/FlaresThatCare" target="_blank">Source Code</a>
 				<span style="padding-right:50px;"></span> <!-- spacer -->
-				<a href="/contact.php" target="_blank">Contact Us</a>
+				<a href="/contact.php">Contact Us</a>
 			</div>
 		<!-- /container div -->
 		</div>

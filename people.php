@@ -24,6 +24,8 @@ $roles = array(
 	),
 	'Management' => array(
 		'CeeJaey',
+		'Goobledegak',
+		'MrsXena',
 		'Pops',
 		'Snoven'
 	),
@@ -37,13 +39,13 @@ $roles = array(
 	),
 	'Audio/Video' => array(
 		'Jerry',
-		'Marty'
+		'Marty',
+		'Twiglet'
 	),
 	'Public Relations' => array(
 		'Breakfast',
 		'Chris',
 		'Getawhale',
-		'Goobledegak',
 		'Plotchy',
 		'Tr1ps'
 	),
@@ -71,6 +73,7 @@ $roles = array(
 		'Afterglow',
 		'ArraySeven',
 		'Aurora',
+		'Bloody',
 		'CDAWG',
 		'Dman',
 		'Haydn',
@@ -78,9 +81,12 @@ $roles = array(
 		'Quintosh',
 		'Satan',
 		'ScottJAw',
+		'Snowblindfrog',
 		'Tatelax',
 		'TMP',
-		'UncleDane'
+		'truktruk',
+		'UncleDane',
+		'Zayannah'
 	)
 );
 $steamIds = array(
@@ -89,6 +95,7 @@ $steamIds = array(
 	'Aurora' => '76561198053067670',
 	'Aus' => '76561198010426052',
 	'Auzzie' => '76561198023665618',
+	'Bloody' => '76561198030548310',
 	'Blutz' => '76561198003720523',
 	'Breakfast' => '76561198076702935',
 	'B_RED' => '76561198158123097',
@@ -115,6 +122,7 @@ $steamIds = array(
 	'Midgett' => '76561198079756281',
 	'Mike' => '76561198019993707',
 	'Mio' => '76561198043660647',
+	'MrsXena' => '76561198006395856',
 	'Mystiq' => '76561198092185323',
 	'Plotchy' => '76561198056063859',
 	'Pops' => '76561198162803387',
@@ -123,14 +131,18 @@ $steamIds = array(
 	'Radio' => '76561198090228853',
 	'Satan' => '76561197996097401',
 	'ScottJAw' => '76561198031381554',
+	'Snowblindfrog' => '76561197968365218',
 	'Snoven' => '76561198155316177',
 	'Tatelax' => '76561198020918584',
 	'TK' => '76561198072266128',
 	'TMP' => '76561197995400066',
 	'ToadySwift' => '76561198020736248',
 	'Tokki' => '76561198043800052',
+	'truktruk' => '76561197993300675',
 	'Tr1ps' => '76561198082784188',
-	'UncleDane' => '76561198057999536'
+	'Twiglet' => '76561198000822327',
+	'UncleDane' => '76561198057999536',
+	'Zayannah' => '76561198004324309'
 );
 
 $cols = 4;

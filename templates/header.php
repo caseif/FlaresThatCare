@@ -126,7 +126,6 @@ if (!isset($pageTitle))
 					<div id="nav-buttons">
 						<div id="nav-links">
 							<a class="nav-button" href="/people.php">People</a>
-							<a class="nav-button" href="/irc.php">IRC</a>
 							<a class="nav-button" href="http://goo.gl/DdOmFz" target="_blank">Schedule</a>
 						</div>
 						<div id="nav-icons">

@@ -146,7 +146,7 @@ var snowFall = (function(){
 										//console.log(newColor);
 										this.element.style.background = newColor;
                                         if(this.y < elTop || this.x <= elLeft ||
-												this.x >= elLeft + elWidth - (document.URL.indexOf('irc') != -1 ? 18 : 1)){
+												this.x >= elLeft + elWidth){
                                             this.reset();
                                         }
 										else {

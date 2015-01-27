@@ -76,8 +76,8 @@ a:visited {
 
 #header-bottom-ribbon {
 	height: 9px;
-	background: url('/img/bg_header_after.png') no-repeat;
-	background-size: 100% 100%;
+	background: url('/img/bg_header_after.png') repeat-x;
+	background-size: 12px 100%;
 }
 
 #countdown {
@@ -123,7 +123,7 @@ a:visited {
 	width: 100%;
 	background-size: 330px 60px;
 	float: right;
-	margin-right: -660px; /* I am a bad person */
+	margin-right: -658px; /* I am a bad person */
 	height: 50px;
 	margin-bottom: 10px;
 }
@@ -161,8 +161,8 @@ a:visited {
 	padding-top: 30px;
 	height: 20px;
 	text-align: center;
-	background: url('/img/bg_footer.png') bottom left no-repeat;
-	background-size: 100% 50px;
+	background: url('/img/bg_footer.png') bottom left repeat-x;
+	background-size: 50px 50px;
 	color: white;
 	font-size: 8pt;
 	font-weight: 100;

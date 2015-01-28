@@ -120,10 +120,10 @@ a:visited {
 
 #schedule-ribbon {
 	background: url('/img/body_ribbon_schedule.png') no-repeat;
-	width: 100%;
+	width: 330px;
 	background-size: 330px 60px;
 	float: right;
-	margin-right: -658px; /* I am a bad person */
+	margin-right: -88px; /* I am a bad person */
 	height: 50px;
 	margin-bottom: 10px;
 }

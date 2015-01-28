@@ -4,145 +4,35 @@ require('./templates/header.php');
 echo '<p>Flares that Care is made posssible with the help of these wonderful people:</p>';
 $roles = array(
 	'Founders' => array(
-		'B_RED',
-		'Snoven'
+		'Snoven',
+		'B_RED'
 	),
-	'Management Lead' => array(
-		'Pops'
-	),
-	'Graphics Lead' => array(
-		'Jess'
-	),
-	'Web Development/IT Lead' => array(
-		'caseif'
-	),
-	'Audio/Video Lead' => array(
-		'Jerry'
-	),
-	'Public Relations Lead' => array(
-		'Plotchy'
-	),
-	'Management' => array(
-		'CeeJaey',
-		'Goobledegak',
-		'MrsXena',
-		'Pops',
-		'Snoven'
-	),
-	'Graphics' => array(
-		'Blutz',
+	'Graphics Design' => array(
+		'Jess',
 		'FoxC',
-		'Jess'
+		'Blutz'
 	),
 	'Web Development/IT' => array(
 		'caseif'
 	),
-	'Audio/Video' => array(
-		'Jerry',
-		'Marty',
-		'Twiglet'
-	),
 	'Public Relations' => array(
-		'Breakfast',
-		'Chris',
-		'Getawhale',
 		'Plotchy',
 		'Tr1ps'
 	),
-	'Moderators' => array(
-		'Aus',
-		'Auzzie',
-		'DaftKid',
-		'DJ',
-		'DrOktober',
-		'Dog21',
-		'Goku',
-		'IronKai',
-		'Latrine',
-		'Midgett',
-		'Mike',
-		'Mio',
-		'Mystiq',
-		'ProfessorCake',
-		'Radio',
-		'TK',
-		'ToadySwift',
-		'Tokki'
-	),
-	'Special Thanks To' => array(
-		'Afterglow',
-		'ArraySeven',
-		'Aurora',
-		'Bloody',
-		'CDAWG',
-		'Dman',
-		'Haydn',
-		'Hobbes',
-		'Quintosh',
-		'Satan',
-		'ScottJAw',
-		'Snowblindfrog',
-		'Tatelax',
-		'TMP',
-		'truktruk',
-		'UncleDane',
-		'Zayannah'
+	'Stream Tech' => array(
+		'Twiglet'
 	)
 );
 $steamIds = array(
-	'Afterglow' => '76561198047849609',
-	'ArraySeven' => '76561198013749611',
-	'Aurora' => '76561198053067670',
-	'Aus' => '76561198010426052',
-	'Auzzie' => '76561198023665618',
-	'Bloody' => '76561198030548310',
 	'Blutz' => '76561198003720523',
-	'Breakfast' => '76561198076702935',
 	'B_RED' => '76561198158123097',
 	'caseif' => '76561198067880160',
-	'CDAWG' => '76561198026581404',
-	'CeeJaey' => '76561197977733292',
-	'Chris' => '76561198044197136',
-	'DaftKid' => '76561197982885662',
-	'DJ' => '76561197993515256',
-	'Dman' => '76561198056034720',
-	'DrOktober' => '76561198008464806',
-	'Dog21' => '76561197999773292',
 	'FoxC' => '76561198005541483',
-	'Getawhale' => '76561197995194256',
-	'Goku' => '76561198002802430',
-	'Goobledegak' => '76561198045558830',
-	'Haydn' => '76561198014665457',
-	'Hobbes' => '76561197969366540',
-	'IronKai' => '76561198053549635',
 	'Jess' => '76561198044250788',
-	'Jerry' => '76561197991851380',
-	'Latrine' => '76561198033653428',
-	'Marty' => '76561197998392954',
-	'Midgett' => '76561198079756281',
-	'Mike' => '76561198019993707',
-	'Mio' => '76561198043660647',
-	'MrsXena' => '76561198006395856',
-	'Mystiq' => '76561198092185323',
 	'Plotchy' => '76561198056063859',
-	'Pops' => '76561198162803387',
-	'ProfessorCake' => '76561198103083216',
-	'Quintosh' => '76561198049289245',
-	'Radio' => '76561198090228853',
-	'Satan' => '76561197996097401',
-	'ScottJAw' => '76561198031381554',
-	'Snowblindfrog' => '76561197968365218',
 	'Snoven' => '76561198155316177',
-	'Tatelax' => '76561198020918584',
-	'TK' => '76561198072266128',
-	'TMP' => '76561197995400066',
-	'ToadySwift' => '76561198020736248',
-	'Tokki' => '76561198043800052',
-	'truktruk' => '76561197993300675',
 	'Tr1ps' => '76561198082784188',
-	'Twiglet' => '76561198000822327',
-	'UncleDane' => '76561198057999536',
-	'Zayannah' => '76561198004324309'
+	'Twiglet' => '76561198000822327'
 );
 
 $cols = 4;

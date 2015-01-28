@@ -101,9 +101,9 @@ a:visited {
 
 #info-ribbon {
 	background: url('/img/body_ribbon_info.png') no-repeat;
-	background-size: 330px 60px;
+	width: 330px;
+	height: 60px;
 	margin-left: -88px;
-	height: 50px;
 	margin-bottom: 10px;
 }
 
@@ -121,11 +121,10 @@ a:visited {
 #schedule-ribbon {
 	background: url('/img/body_ribbon_schedule.png') no-repeat;
 	width: 330px;
-	background-size: 330px 60px;
-	float: right;
-	margin-right: -88px; /* I am a bad person */
-	height: 50px;
+	height: 60px;
+	margin-right: -84px;
 	margin-bottom: 10px;
+	float: right;
 }
 
 #schedule-content {

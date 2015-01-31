@@ -20,9 +20,10 @@ if (!isset($pageTitle))
 		<meta property="og:locale" content="en_US" />
 		<!-- end Open Graph tags -->
 		<link rel="stylesheet" type="text/css" href="/styles.css">
-		<link rel="favicon" type="image/icon" href="/favicon.ico">
-		<link rel="stylesheet"	type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro|Montserrat">
+		<link rel="icon" type="image/icon" href="/favicon.ico">
+		<link rel="stylesheet"	type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro%7CMontserrat">
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/sparks.js"></script>
 		<script type="text/javascript" src="/js/konami.js"></script>
 		<!--<script type="text/javascript" src="/js/mobile_detect.js"></script>-->
 		<script type="text/javascript">
@@ -81,6 +82,32 @@ if (!isset($pageTitle))
 			}
 
 			$(document).ready(function() {
+				// some terrifying flames
+				function letItBurn(){
+					snowFall.snow($("#header-image"), {flakeCount: 250, minSize: 1, maxSize: 1});
+				}
+				
+				if (getCookie("snow") != "off" && navigator.userAgent.indexOf("MSIE") <= -1)
+					$(document).ready = letItBurn();
+				
+				function stopSparks(){
+					document.cookie = 'sparks=off; expires=' + new Date(2037, 0, 1, 0, 0, 0, 0).toGMTString() + '; path=/';
+					snowFall.snow($("#header-image"), "clear");
+					var flakes = document.getElementsByClassName("spark-elements");
+					if (flakes.length > 0)
+						while (flakes[0])
+							flakes[0].parentNode.removeChild(flakes[0]);
+					document.getElementById("spark-toggle").innerHTML = "<a href='javascript:startSparks()'>Want flames again? Click here!</a>";
+					console.log("Sparks disabled");
+				}
+				
+				function startSparks(){
+					document.cookie = "sparks=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+					letItBurn();
+					document.getElementById("spark-toggle").innerHTML = "<a href='javascript:stopSparks()'>Flames too slow? Turn 'em off!</a>";
+					console.log("Sparks enabled");
+				}
+				
 				setTimeout(function () {
 					$('#footer').width($('#container').width());
 					var konami = new Konami();
@@ -109,6 +136,16 @@ if (!isset($pageTitle))
 				</div>
 				<div id="header-image">
 					<a id="ghetto-ass-index-link-that-really-shouldnt-be-done-this-way" href="/"></a>
+				<span id="spark-toggle">
+					<?php
+					if (strpos($_SERVER['HTTP_USER_AGENT'], "MSIE") <= -1) {
+						if ($_COOKIE['sparks'] == "off")
+							echo "<a href='javascript:startSparks()'>Want flames again? Click here!</a>";
+						else
+							echo "<a href='javascript:stopSparks()'>Flames too slow? Turn 'em off!</a>";
+					}
+					?>
+				</span>
 				</div>
 				<div id="header-bottom-ribbon"></div>
 			</div>

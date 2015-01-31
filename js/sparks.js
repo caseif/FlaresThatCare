@@ -45,14 +45,14 @@ var snowFall = (function(){
         function jSnow(){
                 // local methods
                 var        defaults = {
-                        flakeCount : 35,
+                        flakeCount : 55,
 						birthColor : '#FFDD00',
 						deathColor : '#FF4400',
-                        flakeIndex: 99999,
+                        flakeIndex: 9999,
                         minSize : 1,
                         maxSize : 5,
-                        minSpeed : 1,
-                        maxSpeed : 1,
+                        minSpeed : 2,
+                        maxSpeed : 4,
                         round : false,
                         shadow : false,
                         collection : false,

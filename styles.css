@@ -58,12 +58,22 @@ a:visited {
 	font-size: 24pt;
 	color: white;
 	font-weight: bold;
+	z-index: 99999;
 }
 
 #header-image {
+	position: relative;
 	height: 450px;
 	background: url('/img/bg_header.jpg') no-repeat;
 	background-size: 100% 100%;
+}
+
+#spark-toggle a {
+	position: absolute;
+	bottom: 3px;
+	right: 4px;
+	clear: both;
+	font-size: 10pt;
 }
 
 #ghetto-ass-index-link-that-really-shouldnt-be-done-this-way {

@@ -2,7 +2,7 @@
 require('./templates/header.php');
 ?>
 <div id="section-info">
-	<div id="info-ribbon"></div>
+	<div id="info-ribbon" class="ribbon-left"><span>Information</span></div>
 	<div id="info-content">
 		<p>Flares that Care is a quarterly (4 times/year) charity livestream supporting Child's Play Charity founded by
 		<a href="http://steamcommunity.com/profiles/76561198158123097" target="_blank">B_RED</a> and
@@ -20,7 +20,7 @@ require('./templates/header.php');
 	</div>
 </div>
 <div id="section-schedule">
-	<div id="schedule-ribbon"></div>
+	<span id="schedule-ribbon" class="ribbon-right"><span>Event Schedule</span></div>
 	<div id="schedule-content">
 		<p>A link to our current event schedule may be found <a href="http://goo.gl/DdOmFz" target="_blank">here</a>.</p>
 	</div>

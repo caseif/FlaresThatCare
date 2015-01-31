@@ -74,14 +74,18 @@ a:visited {
 	right: 4px;
 	clear: both;
 	font-size: 10pt;
+	z-index: 99999;
 }
 
-#ghetto-ass-index-link-that-really-shouldnt-be-done-this-way {
-	width: 150px;
-	height: 150px;
+#header-logo {
+	width: 142px;
+	height: 142px;
 	position: absolute;
-	margin-left: 6px;
-	margin-top: 281px;
+	left: 6px;
+	bottom: 20px;
+	background: url('/img/logo.png');
+	background-size: 100% 100%;
+	z-index: 99999;
 }
 
 #header-bottom-ribbon {
@@ -103,43 +107,60 @@ a:visited {
 	font-size: 16pt;
 }
 
+.ribbon-left {
+	width: 330px;
+	height: 60px;
+	color: #DAD7D2;
+	font-size: 22pt;
+	text-shadow: 0px 2px 8px black;
+	background: url('/img/ribbon_left.png') no-repeat;
+	padding-top: 5px;
+	margin-left: -88px;
+	float: left;
+}
+
+.ribbon-left > span {
+	padding-left: 55px;
+}
+
+.ribbon-right {
+	width: 330px;
+	height: 60px;
+	color: #DAD7D2;
+	font-size: 22pt;
+	text-shadow: 0px 2px 8px black;
+	background: url('/img/ribbon_right.png') no-repeat;
+	margin-right: -84px;
+	padding-right: 0px;
+	padding-top: 5px;
+	float: right;
+}
+
+.ribbon-right > span {
+	padding-right: 55px;
+}
+
 #section-info {
 	width: 100%;
 	float: left;
 	text-align: left;
 }
 
-#info-ribbon {
-	background: url('/img/body_ribbon_info.png') no-repeat;
-	width: 330px;
-	height: 60px;
-	margin-left: -88px;
-	margin-bottom: 10px;
-}
-
 #info-content {
 	width: 700px;
+	clear: both;
 }
 
 #section-schedule {
 	width: 100%;
 	float: right;
 	text-align: right;
-	padding-bottom: 110px;
-}
-
-#schedule-ribbon {
-	background: url('/img/body_ribbon_schedule.png') no-repeat;
-	width: 330px;
-	height: 60px;
-	margin-right: -84px;
-	margin-bottom: 10px;
-	float: right;
 }
 
 #schedule-content {
 	width: 700px;
 	float: right;
+	text-align: right;
 }
 
 .people {
@@ -156,6 +177,7 @@ a:visited {
 }
 
 #ext-links {
+	clear: both;
 	text-align: center;
 	padding-bottom: 40px;
 	padding-top: 100px;

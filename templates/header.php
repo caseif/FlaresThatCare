@@ -138,7 +138,7 @@ if (!isset($pageTitle))
 					<span id="countdown">%COUNTDOWN%</span>
 				</div>
 				<div id="header-image">
-					<a id="ghetto-ass-index-link-that-really-shouldnt-be-done-this-way" href="/"></a>
+					<a id="header-logo" href="/" title="Flares that Care Home"></a>
 				<span id="spark-toggle">
 					<?php
 					if (strpos($_SERVER['HTTP_USER_AGENT'], "MSIE") <= -1) {

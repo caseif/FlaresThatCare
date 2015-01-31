@@ -73,7 +73,7 @@ if (!isset($pageTitle))
 			window.onready = function () {
 				setTimeout(function () {
 					$('#footer').width($('#container').width());
-					var margin = $(window).height() - $('#container').height() + 8;
+					var margin = $(window).height() - $('#container').height() + 16;
 					if (margin > 0) {
 						$('#content').css('margin-bottom', margin);
 					}

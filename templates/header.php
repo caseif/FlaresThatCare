@@ -81,16 +81,19 @@ if (!isset($pageTitle))
 				tickTimer();
 			}
 
+			var startSparks;
+			var stopSparks;
+			
 			$(document).ready(function() {
 				// some terrifying flames
 				function letItBurn(){
 					snowFall.snow($("#header-image"), {flakeCount: 250, minSize: 1, maxSize: 1});
 				}
 				
-				if (getCookie("snow") != "off" && navigator.userAgent.indexOf("MSIE") <= -1)
+				if (getCookie("sparks") != "off" && navigator.userAgent.indexOf("MSIE") <= -1)
 					$(document).ready = letItBurn();
 				
-				function stopSparks(){
+				stopSparks = function() {
 					document.cookie = 'sparks=off; expires=' + new Date(2037, 0, 1, 0, 0, 0, 0).toGMTString() + '; path=/';
 					snowFall.snow($("#header-image"), "clear");
 					var flakes = document.getElementsByClassName("spark-elements");
@@ -101,7 +104,7 @@ if (!isset($pageTitle))
 					console.log("Sparks disabled");
 				}
 				
-				function startSparks(){
+				startSparks = function() {
 					document.cookie = "sparks=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
 					letItBurn();
 					document.getElementById("spark-toggle").innerHTML = "<a href='javascript:stopSparks()'>Flames too slow? Turn 'em off!</a>";

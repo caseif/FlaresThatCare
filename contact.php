@@ -10,7 +10,7 @@ We'd love to hear your feedback! We can be reached at the following addresses:
 </p>
 	<b>Technical/Website Inquiries</b>
 	<br>
-	<a href="mailto:maxim@flaresthatcare.org">maxim@flaresthatcare.org</a>
+	<a href="mailto:caseif@flaresthatcare.org">caseif@flaresthatcare.org</a>
 </p>
 <?php
 require('./templates/footer.php');

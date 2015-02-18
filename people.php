@@ -19,6 +19,9 @@ $roles = array(
 		'Plotchy',
 		'Tr1ps'
 	),
+	'Community Ambassador' => array(
+		'Chris'
+	),
 	'Stream Tech' => array(
 		'Twiglet'
 	)
@@ -27,6 +30,7 @@ $steamIds = array(
 	'Blutz' => '76561198003720523',
 	'B_RED' => '76561198158123097',
 	'caseif' => '76561198067880160',
+	'Chris' => '76561198044197136',
 	'FoxC' => '76561198005541483',
 	'Jess' => '76561198044250788',
 	'Plotchy' => '76561198056063859',

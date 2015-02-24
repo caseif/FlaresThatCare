@@ -1,9 +1,9 @@
 <?php
 require('./templates/header.php');
 ?>
-<div id="section-info">
-	<div id="info-ribbon" class="ribbon-left"><span>Information</span></div>
-	<div id="info-content">
+<div class="section left">
+	<div class="ribbon"><span>Information</span></div>
+	<div class="content">
 		<p>Flares that Care is a quarterly (4 times/year) charity livestream supporting Child's Play Charity founded by
 		<a href="http://steamcommunity.com/profiles/76561198158123097" target="_blank">B_RED</a> and
 		<a href="http://steamcommunity.com/profiles/76561198155316177" target="_blank">Snoven</a> in December of 2014. Our first event raised $500,
@@ -17,9 +17,9 @@ require('./templates/header.php');
 		<p>For those who don't know what Child's Play is, <a href="http://www.childsplaycharity.org/">you can find their site here.</a></p>
 	</div>
 </div>
-<div id="section-schedule">
-	<span id="schedule-ribbon" class="ribbon-right"><span>Event Schedule</span></div>
-	<div id="schedule-content">
+<div class="section right">
+	<div class="ribbon"><span>Event Schedule</span></div>
+	<div class="content">
 		<p>A link to our current event schedule may be found <a href="http://goo.gl/DdOmFz" target="_blank">here</a>.</p>
 	</div>
 </div>

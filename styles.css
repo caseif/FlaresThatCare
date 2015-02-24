@@ -107,57 +107,53 @@ a:visited {
 	font-size: 16pt;
 }
 
-.ribbon-left {
+.ribbon {
 	width: 330px;
 	height: 60px;
 	color: #DAD7D2;
-	font-size: 22pt;
+	font-size: 21pt;
 	text-shadow: 0px 2px 8px black;
-	background: url('/img/ribbon_left.png') no-repeat;
 	padding-top: 5px;
+}
+
+.section.left > .ribbon {
+	background: url('/img/ribbon_left.png') no-repeat;
 	margin-left: -88px;
 	float: left;
 }
 
-.ribbon-left > span {
+.section.left > .ribbon > span {
 	padding-left: 55px;
 }
 
-.ribbon-right {
-	width: 330px;
-	height: 60px;
-	color: #DAD7D2;
-	font-size: 22pt;
-	text-shadow: 0px 2px 8px black;
+.section.right > .ribbon {
 	background: url('/img/ribbon_right.png') no-repeat;
 	margin-right: -84px;
-	padding-right: 0px;
-	padding-top: 5px;
 	float: right;
 }
 
-.ribbon-right > span {
+.section.right > .ribbon > span {
 	padding-right: 55px;
 }
 
-#section-info {
+.section.left {
 	width: 100%;
 	float: left;
 	text-align: left;
 }
 
-#info-content {
-	width: 700px;
-	clear: both;
-}
-
-#section-schedule {
+.section.right {
 	width: 100%;
 	float: right;
 	text-align: right;
 }
 
-#schedule-content {
+.section.left > .content {
+	width: 700px;
+	clear: both;
+}
+
+.section.right > .content {
 	width: 700px;
 	float: right;
 	text-align: right;

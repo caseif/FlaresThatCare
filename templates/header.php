@@ -53,7 +53,7 @@ if (!isset($pageTitle))
 				remaining = 0;
 			function tickTimer() {
 				if (remaining % 60 == 0)
-					remaining =goal - Math.floor(Date.now() / 1000); // resynchronize
+					remaining = goal - Math.floor(Date.now() / 1000); // resynchronize
 				var days =    Math.floor(remaining / 86400);
 				days = days < 10 ? "0" + days : days;
 				var hours =   Math.floor(remaining % 86400 / 3600);
@@ -62,7 +62,7 @@ if (!isset($pageTitle))
 				minutes = minutes < 10 ? "0" + minutes : minutes;
 				var seconds = Math.floor(remaining % 86400 % 3600 % 60);
 				seconds = seconds < 10 ? "0" + seconds : seconds;
-				var dateStr = remaining == 0 ? "<a href='http://www.twitch.tv/flaresthatcare'>twitch.tv/flaresthatcare</a>" : "Event starts in " +
+				var dateStr = remaining <= 0 ? "<a href='http://www.twitch.tv/flaresthatcare'>twitch.tv/flaresthatcare</a>" : "Event starts in " +
 				(days + ":" + hours + ":" + minutes + ":" + seconds);
 				$("#countdown").html(dateStr);
 				if (remaining > 0) {

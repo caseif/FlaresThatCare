@@ -55,7 +55,7 @@ foreach ($roles as $role => $people) {
 			if (isset($steamId))
 				echo '<a href="https://steamcommunity.com/profiles/'.$steamId.'/" target="_blank">';
 			echo $person;
-			if (isset($url))
+			if (isset($steamId))
 				echo '</a>';
 			echo '</td>';
 		}

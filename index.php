@@ -43,7 +43,7 @@ require('./templates/header.php');
 		"Donate" button below. We are a non-profit run by volunteers, so we promise we'll never use these funds for
 		anything but to subsidize the costs of running the event.</p>
 		<p>Note: our actual event will feature the primary donation page; this button appears only on our website.</p>
-		<p><?php include('./donate_button.html'); ?></p>
+		<?php include('./donate_button.html'); ?>
 	</div>
 </div>
 <?php

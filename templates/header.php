@@ -47,7 +47,7 @@ if (!isset($pageTitle))
 				return c_value;
 			}
 			
-			var goal = 1426276800;
+			var goal = 1426273200;
 			var remaining = goal - Math.floor(Date.now() / 1000);
 			if (remaining < 0)
 				remaining = 0;

@@ -25,6 +25,18 @@ $people = array(
 	'Retro Gaming' => array(
 		'UCBeNG29JwkgORV5e1dBr5RA',
 		'xOfkSY_Tyx4'
+	),
+	'Criits' => array(
+		'UC2MIdFUYiDnZy2RHx0jjY_w',
+		'0nkUKmWmVDU'
+	),
+	'PABS' => array(
+		'UC5DZms_7SCNXA_Efp139MFw',
+		'7tyTj8lRCus'
+	),
+	'Dapper Dog' => array(
+		'UCbYeDmR6E2xQ42n7pZyWIAA',
+		'03x7BXQ5xUc'
 	)
 );
 ?>

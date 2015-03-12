@@ -10,7 +10,7 @@ $people = array(
 		'UCgVfXpnb2waNO4cZ6ewQxhA',
 		'wecYL18Nn28'
 	),
-	'Freedie TF2' => array(
+	'Freddie TF2' => array(
 		'UC65OiYfjfTKvfelonKljZ9g',
 		'xYkaHgAmoVA'
 	),

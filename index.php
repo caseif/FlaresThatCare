@@ -34,18 +34,6 @@ require('./templates/header.php');
 		them out!</a></p>
 	</div>
 </div>
-<div class="section right">
-	<div class="ribbon"><span>Donations</span></div>
-	<div class="content">
-		<p>We are accepting general contributions at our
-		<a href="https://donate.childsplaycharity.org/0db6a8ab44425094824538ec7126aa7f">primary donation page</a>, but
-		we also need funds to keep our website and servers running. You can donate to this purpose using the yellow
-		"Donate" button below. We are a non-profit run by volunteers, so we promise we'll never use these funds for
-		anything but to subsidize the costs of running the event.</p>
-		<p>Note: our actual event will feature the primary donation page; this button appears only on our website.</p>
-		<?php include('./donate_button.html'); ?>
-	</div>
-</div>
 <?php
 require('./templates/footer.php');
 ?>
